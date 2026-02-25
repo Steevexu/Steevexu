@@ -1,5 +1,11 @@
 # 👋 Steeve XU – Data Engineer
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Snowflake](https://img.shields.io/badge/Snowflake-Data%20Platform-blue)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![SQL](https://img.shields.io/badge/SQL-Advanced-orange)
+![AWS](https://img.shields.io/badge/AWS-Data%20Basics-yellow)
+
 Data Engineer spécialisé en industrialisation de pipelines Python,
 optimisation SQL avancée et intégration Snowflake / DataOps.
 
