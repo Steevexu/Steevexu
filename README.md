@@ -4,7 +4,7 @@
 ![Snowflake](https://img.shields.io/badge/Snowflake-Data%20Platform-29B5E8?logo=snowflake&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-Advanced-orange)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![CI](https://github.com/Steevexu/Flight-Airflow-pipeline/actions/workflows/ci.yml/badge.svg)
+![AWS](https://img.shields.io/badge/AWS-Data%20Basics-yellow)
 
 Data Engineer spécialisé en industrialisation de pipelines Python,
 optimisation SQL avancée et intégration Snowflake / DataOps.
