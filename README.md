@@ -25,27 +25,42 @@ Ingénieur data orienté **production, performance et fiabilité** :
 
 ---
 
-## 🚀 Stack Technique
+# 🚀 Stack Technique
+## 🐍 Languages
 
-### 🐍 Langages
-- Python (Pandas, NumPy, Scikit-learn)
-- SQL avancé (CTE, Window Functions, optimisation)
+- Python (Pandas, NumPy, Pytest, Ruff)
+- SQL avancé (CTE, Window Functions, agrégations, optimisation)
+- dbt (Jinja templating)
 
-### 🏗️ Data Engineering
-- ETL & Data Pipelines
-- Data Quality & Validation
-- Snowflake / Snowpark
-- Spark (notions)
+## 🏗 Data Engineering
+
+- End-to-end ETL pipelines
+- Orchestration avec Apache Airflow
+- Data modeling avec dbt (staging → marts)
+- Data Quality (Python validation + dbt tests)
+- PostgreSQL (schemas, indexing, constraints)
 - Modélisation dimensionnelle
+- Snowflake / Snowpark
+- Spark 
 
-### ☁️ Cloud & Industrialisation
+## ⚙️ Infrastructure & Industrialisation
+
+- Docker / Docker Compose
+- CI/CD avec GitHub Actions
+- Containerized data workflows
+- Environment-based configuration
+- Git / GitHub (workflow, branching)
+
+## ☁️ Cloud
+
 - AWS (S3, IAM – notions)
-- Docker
-- CLI tooling
-- Git / GitHub
+- Data warehouse concepts
 
-### 📊 BI
-- Power BI (dashboards dynamiques, reporting automatisé)
+## 📊 BI & Analytics
+
+- Power BI (dashboards dynamiques)
+- KPI modeling
+- Reporting automatisé
 
 ---
 
