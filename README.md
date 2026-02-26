@@ -1,10 +1,11 @@
 # 👋 Steeve XU – Data Engineer
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-Orchestration-017CEE?logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-Modeling-FF694B?logo=dbt&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-Data%20Platform-29B5E8?logo=snowflake&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Advanced-orange)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-Data%20Basics-yellow)
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI/CD-Automated-success)
 
 Data Engineer spécialisé en industrialisation de pipelines Python,
 optimisation SQL avancée et intégration Snowflake / DataOps.
@@ -66,23 +67,45 @@ Ingénieur data orienté **production, performance et fiabilité** :
 
 ## 📦 Projets représentatifs
 
-### ✈️ Flight Data Quality Pipeline CLI
-Pipeline Python modulaire pour ingestion Parquet, validation de données et génération de rapports automatisés.
+### ✈️ Flight Data Platform (Airflow + dbt + CI)
 
-- Architecture en couches (ingestion / validation / métriques / reporting)
-- CLI développée avec Typer
-- Génération de rapport Markdown
-- Conteneurisation avec Docker
-- Structuration type production-ready
+Pipeline data industrialisé avec orchestration, modélisation et validation automatisée.
+
+- Airflow DAG (ETL orchestration)
+- PostgreSQL (staging schema)
+- dbt modeling (staging → marts)
+- Tests unitaires + dbt tests
+- Dockerized infrastructure
+- CI complète (lint, tests, dbt run)
+
+→ Projet orienté Data Platform production-ready
 
 ---
+### 📦 Flight Data Quality CLI
 
+- Pipeline Python modulaire pour ingestion, validation et reporting automatisé
+- Architecture en couches (extract → transform → validate → report)
+- CLI développée avec Typer
+- Génération de rapports Markdown
+- Conteneurisation Docker
+
+→ Mise en avant de la structuration logicielle et validation data
+
+---
 ### 🧾 Quote Generator API
-API Python structurée avec séparation routes / services / modèles.
+API Python structurée avec séparation claire des responsabilités.
 
-- Architecture claire et modulaire
+- Architecture modulaire (routes / services / modèles)
+- Validation des données
 - Tests unitaires
 - Packaging Docker
+- Structuration type production-ready
+
+→ Mise en pratique des principes :
+- Clean architecture
+- Testabilité
+- Séparation des couches
+- Industrialisation
 
 ---
 
